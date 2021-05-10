@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04768E052648C8660059BC62 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04768E042648C8660059BC62 /* GoogleService-Info.plist */; };
+		04768E072648F6D60059BC62 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04768E062648F6D60059BC62 /* DatabaseManager.swift */; };
 		04E04E2B2646ADCF002D03C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E2A2646ADCF002D03C1 /* AppDelegate.swift */; };
 		04E04E2D2646ADCF002D03C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E2C2646ADCF002D03C1 /* SceneDelegate.swift */; };
 		04E04E2F2646ADCF002D03C1 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E2E2646ADCF002D03C1 /* ConversationsViewController.swift */; };
@@ -20,9 +22,12 @@
 		04E04E4E2646B24B002D03C1 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E4D2646B24B002D03C1 /* NewConversationViewController.swift */; };
 		04E04E502646B266002D03C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E4F2646B266002D03C1 /* ProfileViewController.swift */; };
 		04E04E532646B948002D03C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04E522646B948002D03C1 /* Extensions.swift */; };
+		CC1A1650AE88B90041C88D6E /* Pods_ezCareTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278937846CC11FEC6C578DB4 /* Pods_ezCareTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04768E042648C8660059BC62 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04768E062648F6D60059BC62 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		04E04E272646ADCF002D03C1 /* ezCareTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezCareTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E04E2A2646ADCF002D03C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E04E2C2646ADCF002D03C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		04E04E4D2646B24B002D03C1 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		04E04E4F2646B266002D03C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04E04E522646B948002D03C1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		278937846CC11FEC6C578DB4 /* Pods_ezCareTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ezCareTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		649B21745A8E24D0A1A0BA0A /* Pods-ezCareTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCareTalk.release.xcconfig"; path = "Target Support Files/Pods-ezCareTalk/Pods-ezCareTalk.release.xcconfig"; sourceTree = "<group>"; };
+		F4DDF6CC9C3651FC1BB1F002 /* Pods-ezCareTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezCareTalk.debug.xcconfig"; path = "Target Support Files/Pods-ezCareTalk/Pods-ezCareTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1A1650AE88B90041C88D6E /* Pods_ezCareTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +65,8 @@
 			children = (
 				04E04E292646ADCF002D03C1 /* ezCareTalk */,
 				04E04E282646ADCF002D03C1 /* Products */,
+				2C136D9AE1F9200FB41BEBBE /* Pods */,
+				407B44D034180A5D448F832F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +81,7 @@
 		04E04E292646ADCF002D03C1 /* ezCareTalk */ = {
 			isa = PBXGroup;
 			children = (
+				04768E042648C8660059BC62 /* GoogleService-Info.plist */,
 				04E04E422646B09F002D03C1 /* Controllers */,
 				04E04E412646B099002D03C1 /* Views */,
 				04E04E402646B091002D03C1 /* Models */,
@@ -86,6 +98,7 @@
 				04E04E2A2646ADCF002D03C1 /* AppDelegate.swift */,
 				04E04E2C2646ADCF002D03C1 /* SceneDelegate.swift */,
 				04E04E522646B948002D03C1 /* Extensions.swift */,
+				04768E062648F6D60059BC62 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -144,6 +157,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		2C136D9AE1F9200FB41BEBBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDF6CC9C3651FC1BB1F002 /* Pods-ezCareTalk.debug.xcconfig */,
+				649B21745A8E24D0A1A0BA0A /* Pods-ezCareTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		407B44D034180A5D448F832F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278937846CC11FEC6C578DB4 /* Pods_ezCareTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E04E3B2646ADD2002D03C1 /* Build configuration list for PBXNativeTarget "ezCareTalk" */;
 			buildPhases = (
+				4E5353D22B52749F824B1894 /* [CP] Check Pods Manifest.lock */,
 				04E04E232646ADCF002D03C1 /* Sources */,
 				04E04E242646ADCF002D03C1 /* Frameworks */,
 				04E04E252646ADCF002D03C1 /* Resources */,
+				36F898E8C813B151C041E65E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E04E372646ADD2002D03C1 /* LaunchScreen.storyboard in Resources */,
+				04768E052648C8660059BC62 /* GoogleService-Info.plist in Resources */,
 				04E04E342646ADD2002D03C1 /* Assets.xcassets in Resources */,
 				04E04E322646ADCF002D03C1 /* Main.storyboard in Resources */,
 			);
@@ -210,12 +243,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36F898E8C813B151C041E65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCareTalk/Pods-ezCareTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ezCareTalk/Pods-ezCareTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ezCareTalk/Pods-ezCareTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5353D22B52749F824B1894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ezCareTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E04E232646ADCF002D03C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04E04E452646B1C0002D03C1 /* LoginViewController.swift in Sources */,
+				04768E072648F6D60059BC62 /* DatabaseManager.swift in Sources */,
 				04E04E482646B1E2002D03C1 /* RegisterViewController.swift in Sources */,
 				04E04E4E2646B24B002D03C1 /* NewConversationViewController.swift in Sources */,
 				04E04E2F2646ADCF002D03C1 /* ConversationsViewController.swift in Sources */,
@@ -366,6 +442,7 @@
 		};
 		04E04E3C2646ADD2002D03C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DDF6CC9C3651FC1BB1F002 /* Pods-ezCareTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +460,7 @@
 		};
 		04E04E3D2646ADD2002D03C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649B21745A8E24D0A1A0BA0A /* Pods-ezCareTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
