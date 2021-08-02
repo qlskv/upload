@@ -9,6 +9,8 @@
 import UIKit
 
 class PhotoViewerViewController: UIViewController {
+    var decide:Bool?
+    var strin:String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
